@@ -1,0 +1,26 @@
+1.สร้าง array เปล่าไว้เก็บค่า
+2.เป็นการใช้ method .push เพื่อเพิ่มค่าที่เราต้องการไปใน array เปล่าที่ชื่อ qoutes
+3.const word = quotes.findIndex((quote) => quote.id === id);
+คือการ loop ทุกตัวใน quotes โดยมีเงื่อนไขให้หา quote.id ที่เหมือนกันกับ parameter ชื่อ id
+ถ้าเจอ id ที่ตรงกันก็จะลบตัวที่ 1 ออกจากตำแหน่งที่เจอก็คือลบ id ไป แต่
+ถ้าไม่เจอ id ทื่เหมือนกันก็จะ return เป็น -1 โดยที่ if เอาไว้ว่าถ้าเป็น -1 จะให้ console.log(`id ${id} not found.`); ไป
+4..const word = quotes.findIndex((quote) => quote.id === id);
+loop หา id เหมือนเดิมเมื่อเจอ id แล้วก็จะทำการใช้ spread operator ในการอัพเดทค่า
+quotes[word] = {...quotes[word],...updatedQuote} จาก code สมมุตว่า
+
+const originalQuote = {  //อันนี้เป็น originalQoute
+    id: 1, 
+    content: "The only limit to our realization of tomorrow is our doubts of today.",
+    author: "Franklin D. Roosevelt" 
+}
+
+const updatedQuote = {  //อันนี้เป็น updatedQuote ที่ต้องการอัพเดทเข้าไป
+    content: 'Stay Hungry, Stay Foolish',
+    author: 'Steve Jobs' 
+}
+
+result จะเป็น {
+    id: 1, 
+    content: 'Stay Hungry, Stay Foolish',
+    author: 'Steve Jobs'
+}
