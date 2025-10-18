@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <title>ตั้งค่าหน้าเว็บ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        select, input[type="color"] {
+            margin-top: 5px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 20px;
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ตั้งค่าหน้าเว็บ</h1>
+ 
+    <form id="settingsForm">
+        <label for="bgColor">Background Color:</label>
+        <input type="color" id="bgColor" name="bgColor" value="#ffffff" />
+ 
+        <label for="fontColor">Font Color:</label>
+        <input type="color" id="fontColor" name="fontColor" value="#000000" />
+ 
+        <label for="fontSize">Font Size:</label>
+        <select id="fontSize" name="fontSize">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+        </select>
+ 
+        <br/>
+ 
+        <button type="button" id="saveBtn">Save</button>
+        <button type="button" id="resetBtn">Reset</button>
+        <button type="button" id="defaultBtn">Default</button>
+    </form>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
+ 

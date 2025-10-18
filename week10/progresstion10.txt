@@ -1,0 +1,9 @@
+ได้ลองใช้ localStorage
+localStorage.setItem(key, value) บันทึกข้อมูล
+localStorage.getItem(key) ดึงข้อมูลกลับมา
+localStorage.clear() ลบข้อมูลทั้งหมด
+
+ได้ลองใช้ dom กับ css
+เช่น box.style.backgroundColor
+
+ได้รู้จัก Event Handling อย่างอื่นนอกจาก "click" เช่น DOMContentLoaded คือรอให้หน้าเว็ปโหลดแล้วทำงาน
