@@ -1,8 +1,0 @@
-ได้รู้ DOM Manipulation พื้นฐาน
-document.getElementById() หา element ด้วย id
-document.createElement() สร้าง element ใหม่
-appendChild() เพิ่ม element เข้าไปใน parent
-setAttribute() เพิ่ม attribute ให้ element
-และรู้ว่า 
-innerHTML render html tag แล้วแสดงผล แต่
-innerText,textContent แสดง tags html เป็นข้อความด้วย

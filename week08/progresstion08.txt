@@ -1,0 +1,3 @@
+ได้ทดลองใช้ .classList add,remove,toggle
+และลอง Array.from() เพราะถ้าไม่ใช้จะใช้ forEach ไม่ได้เพราะ buttons คืนค่าเป็น HTMLCollection
+ทำให้ใช้ Method ไม่ได้เราเลยใช้ Array.from() ให้เป็น array
