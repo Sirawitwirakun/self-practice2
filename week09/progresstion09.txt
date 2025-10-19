@@ -1,0 +1,4 @@
+ได้ลอง check error ใน from และใช้ css ร่วมด้วยกับแก้แสดง error
+ได้รู้จัก Event ต่างๆเช่น submit = ส่งfrom,keydown = กดปุ่มkeyboard,input =พิมพ์ในinput
+ได้รู้ว่าถ้าไม่มี PreventDefault ใน from มันจะทำการ reload หน้าใหม่ auto
+จากui.js ได้รู้ querySelector & data attributes,math.random(),Dynamic DOM Manipulation สร้าง/ลบ elements แบบ real-time
